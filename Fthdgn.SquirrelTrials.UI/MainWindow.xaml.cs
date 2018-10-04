@@ -24,5 +24,11 @@ namespace Fthdgn.SquirrelTrials.UI
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            txtTitle.Text = AssemblyInfoProvider.Title;
+            txtVersion.Text = AssemblyInfoProvider.Version;
+        }
     }
 }

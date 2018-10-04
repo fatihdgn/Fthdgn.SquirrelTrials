@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Fthdgn.SquirrelTrials.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Background="LightGray" Loaded="Window_Loaded">
     <Grid>
-        
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="txtTitle" Text="Title" FontFamily="Segoe UI Light" FontSize="30" />
+            <TextBlock x:Name="txtVersion" Text="Version" FontFamily="Segoe UI Light" FontSize="15" HorizontalAlignment="Center" />
+        </StackPanel>
     </Grid>
 </Window>
