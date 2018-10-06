@@ -8,8 +8,10 @@
         Title="MainWindow" Height="350" Width="525" Background="LightGray" Loaded="Window_Loaded">
     <Grid>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock x:Name="txtTitle" Text="Title" FontFamily="Segoe UI Light" FontSize="30" />
+            <Image Source="pack://siteoforigin:,,,/Resources/image.png" Width="128" />
+            <TextBlock x:Name="txtTitle" Text="Title" FontFamily="Segoe UI Light" FontSize="30" HorizontalAlignment="Center" />
             <TextBlock x:Name="txtVersion" Text="Version" FontFamily="Segoe UI Light" FontSize="15" HorizontalAlignment="Center" />
         </StackPanel>
+        <TextBlock x:Name="txtExePath" Text="Executable Path" FontFamily="Segoe UI Light" FontSize="10" Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Center" />
     </Grid>
 </Window>
